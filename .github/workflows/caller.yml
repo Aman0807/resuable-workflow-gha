@@ -1,0 +1,10 @@
+name: caller
+
+on:
+  workflow_call
+
+jobs:
+  call-workflow-from-another-repo:
+    uses:
+      learn-gha/.github/workflows/blank.yml
+          
